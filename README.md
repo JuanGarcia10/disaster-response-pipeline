@@ -18,7 +18,11 @@ Data Cleaning activities are summarized in the Jupyter Notebook "ETL Pipeline Pr
 
 ### Feature Extraction and Data Modeling
 
-We are analyzing only strings (text) and that is why we use NLP (Natural language processing) machine learning methods for the feature extraction. Please refer to the Jupyter Notebook "ML Pipeline Preparation" for further information. By the end of this Notebook a Model based on a Random Forest Classifier will be saved under the name "classifier.pkl".
+We are analyzing only strings (text) and that is why we use NLP (Natural language processing) machine learning methods for the feature extraction. Please refer to the Jupyter Notebook "ML Pipeline Preparation" for further information.
+
+I use grid search to find the best combination of parameters for my model. By the end of this Notebook a Model based on a Random Forest Classifier will be saved under the name "classifier.pkl".
+
+For the final script (train_classifier) I use a random forest classifier and display the most important metrics such as accuracy, precision and the f1-score. 
 
 ### Web-App and Visualization
 
